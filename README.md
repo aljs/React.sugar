@@ -7,6 +7,7 @@ This is a plugin for MacRabbit's [Espresso](http://macrabbit.com/espresso/) code
 
 ## Installation
 Installing via terminal:
+
     cd ~/Library/Application\ Support/Espresso/Plug-Ins
     git clone https://github.com/aljs/React.sugar.git
 
