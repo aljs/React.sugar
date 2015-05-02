@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<codesense>
+  <provider>
+    <selector>js, js *:not(string,string *,comment,regex,regex *)</selector>
+    <completions>com.react.keywords</completions>
+    <complete-match>([A-Z])([a-zA-Z]*)</complete-match>
+  </provider>
+
+  <provider>
+    <selector>js, js *:not(string,string *,comment,regex,regex *)</selector>
+    <completions>com.react.methods</completions>
+    <complete-match capture="1">(?:React)\.([a-zA-Z]*)</complete-match>
+  </provider>
+</codesense>

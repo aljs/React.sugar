@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<settings>
+  <language id="espresso.default.JavaScript.JSX">
+  	<syntax-name>language-root.js</syntax-name>
+  	<name>JavaScript</name>
+  	<detectors>
+  		<extension>jsx</extension>
+  	</detectors>
+  </language>
+</settings>
