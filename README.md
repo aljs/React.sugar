@@ -1,8 +1,9 @@
 # React.sugar for Espresso
-This is a plugin for MacRabbit's [Espresso](http://macrabbit.com/espresso/) code editor for Mac. It adds basic support for [React](https://facebook.github.io/react/) JavaScript library. 
+This is a plugin for MacRabbit's [Espresso](http://macrabbit.com/espresso/) code editor for Mac. It adds support for [React](https://facebook.github.io/react/) JavaScript library.
 
 ## Features:
-* **Espresso's default JS support for jsx files**
+* **Supports both .js and .jsx files**
+* **JSX syntax highlight**
 * **Auto-complete for React's TOP-Level APIs**
 
 ## Installation
@@ -14,6 +15,7 @@ Installing via terminal:
 Or you can [download the project](https://github.com/aljs/React.sugar/zipball/master), decompress it, rename the folder to "React.sugar" and double click it to install in Espresso.
 
 ## Todo
-- [ ] JSX syntax highlight
+- [x] JSX syntax highlight
+- [ ] JSX itemisers for navigator panel
 - [ ] Auto-complete for inside class methods
 - [ ] Auto-complete for React Native components and APIs
