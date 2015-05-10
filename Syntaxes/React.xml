@@ -7,21 +7,22 @@
   
   <library>
     <collection name="jsx">
-      <zone name="tag.open.jsx">
+      <zone name="tag.open.js">
         <starts-with>
           <expression>(&lt;)([a-zA-Z:_]+[a-zA-Z:_0-9.-]*)</expression>
           <capture number="1" name="punctuation.definition.begin"/>
           <capture number="2" name="name"></capture>
         </starts-with>
         <ends-with>
-          <expression>(/?>)</expression>
-          <capture number="0" name="punctuation.definition.end"/>
+        	<expression>(/?)(>)</expression>
+        	<capture number="1" name="punctuation.definition.self-closing"/>
+        	<capture number="2" name="punctuation.definition.end"/>
         </ends-with>
         <subzones>
           <include collection="strings"/>
         </subzones>
       </zone>
-      <zone name="tag.close.jsx">
+      <zone name="tag.close.js">
         <starts-with>
           <expression>(&lt;/)([a-zA-Z:_0-9.-]+)</expression>
           <capture number="1" name="punctuation.definition.begin"/>

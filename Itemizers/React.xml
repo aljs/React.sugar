@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<itemizer language-context="js">
+
+	<item name="built-in.self-closing-tag.js">
+		<zone>js.tag.open:has-child(name:capture(name), empty-element-marker), js.tag.self-closing:has-child(name:capture(name)), js.tag.open:has-child(name:capture(name), self-closing)</zone>
+		<class>JSXItem</class>
+	</item>
+
+	<item name="built-in.tag.js.collection">
+		<start-zone>js.tag.open:has-child(name:capture(name))</start-zone>
+		<end-zone>js.tag.close:has-child(name[text == $name.text])</end-zone>
+		<subitems>
+			<include-root-itemizers/>
+		</subitems>
+		<class>JSXItem</class>
+	</item>
+	
+</itemizer>

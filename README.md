@@ -4,6 +4,7 @@ This is a plugin for MacRabbit's [Espresso](http://macrabbit.com/espresso/) code
 ## Features:
 * **Supports both .js and .jsx files**
 * **JSX syntax highlight**
+* **JSX itemisers for navigator panel**
 * **Auto-complete for React's TOP-Level APIs**
 
 ## Installation
@@ -16,6 +17,6 @@ Or you can [download the project](https://github.com/aljs/React.sugar/zipball/ma
 
 ## Todo
 - [x] JSX syntax highlight
-- [ ] JSX itemisers for navigator panel
+- [x] JSX itemisers for navigator panel
 - [ ] Auto-complete for inside class methods
 - [ ] Auto-complete for React Native components and APIs
