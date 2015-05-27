@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <settings>
-  <language id="espresso.default.JavaScript">
+  <language id="espresso.default.JavaScript.jsx">
     <syntax-name>com.react.js</syntax-name>
-    <name>JavaScript</name>
+    <name>JSX</name>
     <detectors>
       <extension>js</extension>
       <extension>jsx</extension>
